@@ -19,14 +19,14 @@ const SignInPage: React.FC = () => {
           </p>
         </div>
         
-        <div className="bg-white dark:bg-gray-800 py-8 px-4 shadow-lg rounded-lg sm:px-10">
+        <div className="flex bg-white dark:bg-gray-800 py-8 px-4 shadow-lg rounded-lg sm:px-10 justify-center items-center">
           <SignIn 
             appearance={{
               elements: {
                 formButtonPrimary: 
                   "bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full w-full transition-colors",
                 formFieldInput: 
-                  "block w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-white shadow-sm focus:border-blue-500 focus:ring-blue-500",
+                  "block w-full rounded-md border-gray-300 dark:border-gray-400 dark:bg-gray-900 dark:text-white shadow-sm focus:border-blue-500 focus:ring-blue-500",
                 card: "bg-transparent shadow-none",
                 headerTitle: "hidden",
                 headerSubtitle: "hidden",
